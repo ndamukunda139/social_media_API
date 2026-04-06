@@ -110,16 +110,9 @@ Static files are served using Whitenoise. In production, collect static files:
 python manage.py collectstatic
 ```
 
-## Testing
-
-Run tests with:
-```bash
-python manage.py test
-```
-
 ## Deployment
 
-This project is configured for deployment with security settings enabled (SSL redirect, secure cookies, etc.). Ensure `DEBUG=False` in production.
+This project is configured for deployment with security settings enabled (SSL redirect, secure cookies, etc.).
 
 ## Contributing
 
